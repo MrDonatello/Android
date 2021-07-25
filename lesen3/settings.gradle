@@ -1,0 +1,2 @@
+rootProject.name = "lesen3"
+include ':app'

@@ -1,9 +1,12 @@
 package com.anderysinitsyn.myapplicationkotlin
 
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var mHelloTextView: TextView
@@ -14,9 +17,20 @@ class MainActivity : AppCompatActivity() {
 
         mHelloTextView = findViewById(R.id.textView)
 
-        var imageButton: ImageButton = findViewById(R.id.imageButton)
+        val imageButton: ImageButton = findViewById(R.id.imageButton)
         imageButton.setOnClickListener {
-            mHelloTextView.setText("Hello Kitty")
+            val editText: EditText = findViewById(R.id.editText)
+            if (editText.text.isEmpty()) {
+                mHelloTextView.text = getString(R.string.hello_def)
+            } else {
+                mHelloTextView.text = getString(R.string.hello_name, editText.text)
+            }
         }
+        val button: Button = findViewById(R.id.button)
+        button.setOnClickListener{
+            mHelloTextView.text = getString(R.string.les_2)
+            it.setBackgroundColor(Color.MAGENTA)
+        }
+
     }
 }
