@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">l2</string>
+    <string name="Hello_text">Поздороваться</string>
+    <string name="Hello_Kitty">Hello Kitty!</string>
+    <string name="mult_b">Считаем ворон</string>
+    <string name="Cat_couter">Я Насчитал котов</string>
+</resources>

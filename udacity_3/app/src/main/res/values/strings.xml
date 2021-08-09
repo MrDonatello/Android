@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">u3</string>
+    <string name="box_one">box one</string>
+    <string name="box_two">box two</string>
+    <string name="box_three">box three</string>
+    <string name="box_four">box four</string>
+    <string name="box_five">box five</string>
+    <string name="button_red">RED</string>
+    <string name="button_yellow">YELLOW</string>
+    <string name="button_green">GREEN</string>
+
+</resources>

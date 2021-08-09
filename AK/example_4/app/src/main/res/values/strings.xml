@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">L4</string>
+    <string name="cat_image">Cat</string>
+    <string name="Zoo">zoo</string>
+    <string name="all_animals">animals</string>
+    <string name="animas_say">мы звери</string>
+    <string name="cat_say">Я кот</string>
+    <string name="zoo_say">"я заяц "</string>
+    <string name="cat_2_say">Я тоже кот</string>
+</resources>
