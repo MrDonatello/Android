@@ -5,6 +5,7 @@
 *.mvn
 *mvnw
 */target
+
 /bin
 
 /out
